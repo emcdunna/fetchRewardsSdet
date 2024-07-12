@@ -76,7 +76,7 @@ Email: emcdunna@gmail.com
             Click on New and add the path to the directory where you moved chromedriver.exe (e.g., C:\chromedriver).
             Click OK to close all windows.
 
-4. Usage
+## 4. Usage
     Clone the repository or download the script.
 
     Run the script:
@@ -91,7 +91,7 @@ Email: emcdunna@gmail.com
 
     WARNING: Do not interact with the web page at all during the automated tests, or it can throw off the web driver's state. A common example I found is clicking "OK" on the alert window before the automation tries to do this, but there could be other issues.
 
-5. Code Structure
+## 5. Code Structure
     The main components of the code are:
 
     gold_bar_test_driver.py
