@@ -95,18 +95,18 @@ Email: emcdunna@gmail.com
     The main components of the code are:
 
     gold_bar_test_driver.py
-        WeightResult Enum: Defines the possible outcomes of a weighing operation (UNKNOWN, LEFT_HEAVIER, RIGHT_HEAVIER, EQUAL).
-        GoldBarsTestDriver Class: Handles interactions with the web application.
-            setup: Loads the web application.
-            set_scale: Sets the weight on the scale for a given side.
-            weigh_scales: Clicks on the 'Weigh' button to measure weights.
-            read_weigh_results: Reads the result of the weighing operation.
-            click_on_fake_gold_bar: Clicks on the identified fake gold bar.
-            is_result_correct: Checks if the alert shown in the UI confirms our choice.
-            dismiss_alert: Dismisses any alert present on the UI.
-            reset_scales: Resets the weighing scales to their initial state.
-            teardown: Closes the browser window.
+        * WeightResult Enum: Defines the possible outcomes of a weighing operation (UNKNOWN, LEFT_HEAVIER, RIGHT_HEAVIER, EQUAL).
+        * GoldBarsTestDriver Class: Handles interactions with the web application.
+            * setup: Loads the web application.
+            * set_scale: Sets the weight on the scale for a given side.
+            * weigh_scales: Clicks on the 'Weigh' button to measure weights.
+            * read_weigh_results: Reads the result of the weighing operation.
+            * click_on_fake_gold_bar: Clicks on the identified fake gold bar.
+            * is_result_correct: Checks if the alert shown in the UI confirms our choice.
+            * dismiss_alert: Dismisses any alert present on the UI.
+            * reset_scales: Resets the weighing scales to their initial state.
+            * teardown: Closes the browser window.
 
     main.py
-        main (function): Executes the testing process to find the fake gold bar and defines the algorithm to optimally find the answer in only 2 iterations.
+        * main (function): Executes the testing process to find the fake gold bar and defines the algorithm to optimally find the answer in only 2 iterations.
 
